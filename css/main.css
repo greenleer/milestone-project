@@ -22,6 +22,7 @@ ul li a {
 }
 .full-width {
   width: 100%;
+  clear: both;
 }
 .half-width {
   width: 50%;
