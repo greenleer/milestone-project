@@ -33,7 +33,7 @@ ul li a {
   color: #ffffff;
 }
 ul li a:hover {
-  color: #afbfcf;
+  color: #a87600;
 }
 section div {
   padding: 25px 30px;
@@ -79,7 +79,7 @@ footer {
   text-align: left;
 }
 #hero {
-  background-image: url('../img/hero-background.png');
+  background-image: url('../img/giraffe-hands.jpg');
   height: 100vh;
   background-size: cover;
   background-position: center;
