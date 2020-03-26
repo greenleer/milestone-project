@@ -2,10 +2,14 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
-header {
+#hero {
   background-image: url('../img/hero-background.png');
+  height: 500px;
   background-size: cover;
   background-position: center;
+}
+#jumbotron {
+  clear: both;
 }
 ul {
   list-style: none;
@@ -18,8 +22,6 @@ ul li a {
 }
 .full-width {
   width: 100%;
-  overflow: auto;
-  clear: both;
 }
 .half-width {
   width: 50%;
