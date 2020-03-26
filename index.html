@@ -1,88 +1,108 @@
 <!doctype html>
 <html>
-    <head>
-      <meta charset="utf-8">
-      <link href="css/normalize.css" type="text/css" rel="stylesheet">
-      <link href="css/main.css" type="text/css" rel="stylesheet">
-      <title>Ryan Greenlee | Creative Human</title>
-    </head>
-    <body>
-      <header>
-        <div id="hero" class="full-width">
-          <div id="marquee" class="half-width">
-            <h1>Ryan Greenlee | Creative Human</h1>
-          </div>
-          <div id="top-nav" class="half-width">
-            <nav>
-              <ul>
-                <li><a href="#work">portfolio</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#contact">contact</a></li>
-              </ul>
-            </nav>
-          </div>
-          <div id="jumbotron" class="half-width">
-            <h2>Let's <span>make</span> something cool!</h2>
-          </div>
-        </div>
-      </header>
-      <section id="work">
+
+<head>
+  <meta charset="utf-8">
+  <link href="css/normalize.css" type="text/css" rel="stylesheet">
+  <link href="css/main.css" type="text/css" rel="stylesheet">
+  <title>Ryan Greenlee | Creative Human</title>
+</head>
+
+<body>
+
+  <header>
+    <div id="top-bar" class="full-width">
+      <div class="half-width">
+        <h1 id="marquee">Ryan Greenlee | Creative Human</h1>
+      </div>
+      <div class="half-width">
+        <nav id="top-nav">
+          <ul>
+            <li><a href="#work">portfolio</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div id="hero" class="full-width">
+      <div class="half-width">
+        <h2 id="jumbotron">Let's <span>create</span> something cool!</h2>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="work">
+      <div class="full-width">
+        <h3 class="subhead">My Portfolio</h3>
         <div class="full-width">
-          <h3 class="subhead">My Portfolio</h3>
+          <div class="half-width">
+            <img id="rogue" src="img/rogue-pickings-thumbnail.png" alt="Rogue Pickings website thumbnail" />
+          </div>
+          <div class="half-width left">
+            <h3>Rogue Pickings Website</h3>
+            <p>HTML & CSS from Photoshop Design Comp</p>
+            <p>Blah blah blah blah blah.</p>
+          </div>
         </div>
-        <div class="half-width">
-          <img id="rogue" src="img/rogue-pickings-thumbnail.png" alt="Rogue Pickings website thumbnail" />
-        </div>
-        <div class="half-width">
-          <h3>Rogue Pickings Website</h3>
-          <p>Blah blah blah blah blah.</p>
-        </div>
-        <div class="half-width">
-          <h3>Jubilee Austen Project</h3>
-          <p>Babbity blibbity bloo.</p>
-        </div>
-        <div class="half-width">
-          <img id="jubilee" src="img/jubilee-thumbnail.png" alt="Jubilee Austen project thumbnail" />
-        </div>
-        <div class="half-width">
-          <img id="recipe" src="img/recipe-thumbnail.png" alt="Recipe Collection thumbnail" />
-        </div>
-        <div class="half-width">
-          <h3>Recipe Collection</h3>
-          <p>Flibbity flobbity floo.</p>
-        </div>
-      </section>
-      <section id="about">
         <div class="full-width">
-          <h3 class="subhead">About Me</h3>
+          <div class="half-width right">
+            <h3>Jubilee Austen Project</h3>
+            <p>HTML5 & CSS</p>
+            <p>Babbity blibbity bloo.</p>
+          </div>
+          <div class="half-width">
+            <img id="jubilee" src="img/jubilee-thumbnail.png" alt="Jubilee Austen project thumbnail" />
+          </div>
         </div>
+        <div class="full-width">
+          <div class="half-width">
+            <img id="recipe" src="img/recipe-thumbnail.png" alt="Recipe Collection thumbnail" />
+          </div>
+          <div class="half-width left">
+            <h3>Recipe Collection</h3>
+            <p>HTML5 & CSS</p>
+            <p>Flibbity flobbity floo.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="full-width">
+        <h3 class="subhead">About Me</h3>
         <div class="half-width">
           <h3>Creativity drives my passion</h3>
           <p>Hullabuloo and paragraphs, too!</p>
           <p>Oh, and one more paragraph to boot!</p>
         </div>
-      </section>
-      <footer id="contact">
-        <div class="full-width">
-          <h3 class="subhead">Let's Connect</h3>
-        </div>
-        <div class="third-width">
-          <h3>Hire Me</h3>
-          <p>314-695-6615</p>
-          <p>hello@ryangreenlee.net</p>
-        </div>
-        <div class="third-width">
-          <h3>Follow Me</h3>
-          <img id="github-icon" src="img/github.png" alt="GitHub Logo" />
-          <img id="linkedin-icon" src="img/linkedin.png" alt="LinkedIn Logo" />
-        </div>
-        <div class="third-width">
-          <h3>Let's Get Coffee</h3>
-          <p>Denver, CO</p>
-          <p>freeCodeCamp meetups are fun!</p>
-        </div>
-        <div id="copyright" class="full-width">
-          <p>Copyright 2020 | Ryan Greenlee</p>
-      </footer>
-    </body>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <h3 class="subhead">Let's Connect</h3>
+    <div class="third-width">
+      <h3>Hire Me</h3>
+      <p>314-695-6615</p>
+      <p>hello@ryangreenlee.net</p>
+    </div>
+    <div class="third-width">
+      <h3>Follow Me</h3>
+      <img id="github-icon" src="img/github.png" alt="GitHub Logo" />
+      <img id="linkedin-icon" src="img/linkedin.png" alt="LinkedIn Logo" />
+    </div>
+    <div class="third-width">
+      <h3>Let's Get Coffee</h3>
+      <p>Denver, CO</p>
+      <p>freeCodeCamp meetups are fun!</p>
+    </div>
+    <div id="copyright" class="full-width">
+      <p>Copyright 2020 | Ryan Greenlee</p>
+    </div>
+  </footer>
+
+</body>
+
 </html>
