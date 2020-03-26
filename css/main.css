@@ -107,3 +107,14 @@ footer {
   font-size: 18px;
   font-weight: 300;
 }
+@media screen and (max-width: 600px) {
+  .half-width, .third-width, .full-width {
+    width: 100%;
+    float: none;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  #jumbotron {
+    position: static;
+  }
+}
