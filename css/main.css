@@ -1,16 +1,20 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  background: #000000;
-  color: #ffffff;
+  background: #241b19;
+  color: #ecead3;
 }
 body div {
   box-sizing: border-box;
+}
+h1, nav, p {
+  font-weight: 300;
 }
 h1 {
   font-size: 60px;
 }
 h2 {
+  font-family: 'Lato', sans-serif;
   font-size: 40px;
 }
 h3 {
@@ -41,10 +45,17 @@ ul li a:hover {
 section div {
   padding: 25px 30px;
 }
+a {
+  text-decoration: none;
+}
+figcaption {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  padding: 10px 0;
+}
 footer {
   text-align: center;
-  background: #000000;
-  color: #ffffff;
   padding-top: 25px;
 }
 .full-width {
@@ -69,20 +80,23 @@ footer {
 }
 .subhead {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 36px;
+  font-weight: 300;
   text-transform: lowercase;
   text-align: center;
   padding-bottom: 10px;
   color: #a87600;
 }
-#top-bar {
-  background: none;
+#marquee, #top-nav {
+  vertical-align: text-top;
 }
 #marquee {
   font-size: 30px;
-  font-weight: 400;
   padding-left: 40px;
   text-align: left;
+}
+#marquee span {
+  color: #000000;
 }
 #hero {
   background-image: url('../img/robot-costume.jpg');
@@ -91,28 +105,28 @@ footer {
   background-position: bottom center;
 }
 #jumbotron {
-  font-size: 60px;
+  font-size: 70px;
   position: relative;
-  top: 100px;
+  top: 70px;
   left: 50px;
 }
 #jumbotron span {
-  color: #000000;
+  color: #241b19;
 }
 #work img {
   width: 100%;
   display: block;
   margin: 0 auto;
 }
+#work a {
+  color: #ecead3;
+}
+#work a:hover {
+  color: #a87600;
+}
 #about {
-  background: #ffffff;
-  color: #000000;
-  /***
-  background-image: url('../img/blue-shoes.png');
-  height: 100vh;
-  background-size: cover;
-  background-position: left center;
-  ***/
+  background: #ecead3;
+  color: #241b19;
 }
 #copyright {
   padding-top: 60px;
