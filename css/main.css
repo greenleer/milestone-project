@@ -16,6 +16,9 @@ h2 {
 h3 {
   font-size: 20px;
 }
+header {
+  background: none;
+}
 nav {
   padding-top: 5px;
   padding-right: 40px;
@@ -72,6 +75,9 @@ footer {
   padding-bottom: 10px;
   color: #a87600;
 }
+#top-bar {
+  background: none;
+}
 #marquee {
   font-size: 30px;
   font-weight: 400;
@@ -79,10 +85,10 @@ footer {
   text-align: left;
 }
 #hero {
-  background-image: url('../img/giraffe-hands.jpg');
+  background-image: url('../img/robot-costume.jpg');
   height: 100vh;
   background-size: cover;
-  background-position: center;
+  background-position: bottom center;
 }
 #jumbotron {
   font-size: 60px;
@@ -91,7 +97,7 @@ footer {
   left: 50px;
 }
 #jumbotron span {
-  color: #a87600;
+  color: #000000;
 }
 #work img {
   width: 100%;
@@ -101,6 +107,12 @@ footer {
 #about {
   background: #ffffff;
   color: #000000;
+  /***
+  background-image: url('../img/blue-shoes.png');
+  height: 100vh;
+  background-size: cover;
+  background-position: left center;
+  ***/
 }
 #copyright {
   padding-top: 60px;
