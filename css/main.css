@@ -1,8 +1,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  background: #241b19;
-  color: #ecead3;
+  background: #ffffff;
+  color: #000000;
 }
 body div {
   box-sizing: border-box;
@@ -57,6 +57,8 @@ figcaption {
 footer {
   text-align: center;
   padding-top: 25px;
+  background: #000000;
+  color: #ffffff;
 }
 .full-width {
   width: 100%;
@@ -91,12 +93,10 @@ footer {
   vertical-align: text-top;
 }
 #marquee {
-  font-size: 30px;
+  font-size: 25px;
   padding-left: 40px;
+  color: #ffffff;
   text-align: left;
-}
-#marquee span {
-  color: #000000;
 }
 #hero {
   background-image: url('../img/robot-costume.jpg');
@@ -105,28 +105,32 @@ footer {
   background-position: bottom center;
 }
 #jumbotron {
-  font-size: 70px;
+  font-size: 80px;
+  color: #ffffff;
   position: relative;
   top: 70px;
   left: 50px;
 }
 #jumbotron span {
-  color: #241b19;
+  color: #000000;
 }
-#work img {
+#work img, #about img {
   width: 100%;
   display: block;
-  margin: 0 auto;
+  margin: auto;
 }
 #work a {
-  color: #ecead3;
+  color: #000000;
 }
 #work a:hover {
   color: #a87600;
 }
 #about {
-  background: #ecead3;
-  color: #241b19;
+  background: #ffffff;
+  color: #000000;
+}
+#ryan {
+  border: 1px solid black;
 }
 #copyright {
   padding-top: 60px;
