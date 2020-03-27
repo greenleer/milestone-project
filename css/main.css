@@ -7,7 +7,7 @@ body {
 body div {
   box-sizing: border-box;
 }
-h1, nav, p {
+h1, nav {
   font-weight: 300;
 }
 h1 {
@@ -18,6 +18,10 @@ h2 {
 }
 h3 {
   font-size: 20px;
+}
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
 }
 a {
   text-decoration: none;
@@ -42,29 +46,10 @@ nav ul li a:hover {
   color: #000000;
 }
 section div {
-  padding: 25px;
-}
-figcaption {
-  font-size: 16px;
-  font-weight: 300;
-  text-align: center;
-  margin-top: 30px;
-}
-figcaption a {
-  padding: 10px 10px;
-  margin: 0 10px;
-  color: #ffffff;
-  border: 1px solid #ffffff;
-  border-radius: 3px;
-}
-figcaption a:hover {
-  background: #ffffff;
-  border: 1px solid dodgerblue;
-  color: dodgerblue;
+  padding: 20px;
 }
 footer {
   text-align: center;
-  padding-top: 25px;
 }
 footer a {
   color: #000000;
@@ -93,10 +78,11 @@ footer a:hover {
   text-align: center;
 }
 .subhead {
+  margin-top: 0;
   font-size: 40px;
   font-weight: bold;
   text-transform: lowercase;
-  text-align: center;
+  text-align: left;
   color: dodgerblue;
 }
 #marquee {
@@ -122,15 +108,16 @@ footer a:hover {
   color: #000000;
 }
 #work img, #about img {
-  width: 100%;
-  border: 1px solid #000000;
-  display: block;
-  margin: auto;
+    width: 100%;
+    display: block;
+    margin: auto;
 }
-#rogue-img, #jubilee-img, #recipe-img {
-  border-radius: 1%;
-  padding-top: 60px;
-  background: dodgerblue;
+#rogue, #jubilee, #recipe {
+  opacity: .8;
+  transition: .3s;
+}
+#rogue:hover, #jubilee:hover, #recipe:hover {
+  opacity: 1;
 }
 #about {
   background: dodgerblue;
@@ -150,7 +137,7 @@ footer a:hover {
   background: #000000;
   color: #ffffff;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .half-width, .third-width, .full-width {
     width: 100%;
     float: none;
