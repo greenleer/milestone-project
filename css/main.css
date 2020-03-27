@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 18px;
   background: #ffffff;
   color: #000000;
@@ -14,19 +14,14 @@ h1 {
   font-size: 60px;
 }
 h2 {
-  font-family: 'Lato', sans-serif;
   font-size: 40px;
 }
 h3 {
   font-size: 20px;
 }
-header {
-  background: none;
-}
-nav {
-  padding-top: 5px;
-  padding-right: 40px;
-  text-align: right;
+a {
+  text-decoration: none;
+  transition: 0.3s;
 }
 ul {
   list-style: none;
@@ -35,30 +30,47 @@ ul {
 ul li {
   display: inline-block;
 }
-ul li a {
-  text-decoration: none;
+nav {
+  padding-top: 5px;
+  padding-right: 40px;
+  text-align: right;
+}
+nav ul li a {
   color: #ffffff;
 }
-ul li a:hover {
+nav ul li a:hover {
   color: #000000;
 }
 section div {
-  padding: 25px 30px;
-}
-a {
-  text-decoration: none;
+  padding: 25px;
 }
 figcaption {
   font-size: 16px;
   font-weight: 300;
   text-align: center;
-  padding: 10px 0;
+  margin-top: 20px;
+}
+figcaption a {
+  padding: 5px 10px;
+  margin: 0 10px;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 3px;
+}
+figcaption a:hover {
+  background: dodgerblue;
+  border: 1px solid dodgerblue;
+  color: #ffffff;
 }
 footer {
   text-align: center;
   padding-top: 25px;
-  background: #000000;
-  color: #ffffff;
+}
+footer a {
+  color: #000000;
+}
+footer a:hover {
+  color: dodgerblue;
 }
 .full-width {
   width: 100%;
@@ -81,16 +93,11 @@ footer {
   text-align: center;
 }
 .subhead {
+  font-size: 40px;
   font-weight: bold;
-  font-size: 36px;
-  font-weight: 300;
   text-transform: lowercase;
   text-align: center;
-  padding-bottom: 10px;
-  color: #a87600;
-}
-#marquee, #top-nav {
-  vertical-align: text-top;
+  color: dodgerblue;
 }
 #marquee {
   font-size: 25px;
@@ -102,7 +109,7 @@ footer {
   background-image: url('../img/robot-costume.jpg');
   height: 100vh;
   background-size: cover;
-  background-position: bottom center;
+  background-position: bottom left;
 }
 #jumbotron {
   font-size: 80px;
@@ -116,26 +123,27 @@ footer {
 }
 #work img, #about img {
   width: 100%;
+  border: 1px solid #000000;
   display: block;
   margin: auto;
 }
-#work a {
-  color: #000000;
-}
-#work a:hover {
-  color: #a87600;
-}
 #about {
-  background: #ffffff;
-  color: #000000;
+  background: dodgerblue;
+}
+#about .subhead {
+  color: #ffffff;
 }
 #ryan {
-  border: 1px solid black;
+  border-radius: 50%;
+}
+#foot-wrap {
+  padding-bottom: 30px;
 }
 #copyright {
-  padding-top: 60px;
   font-size: 18px;
   font-weight: 300;
+  background: #000000;
+  color: #ffffff;
 }
 @media screen and (max-width: 600px) {
   .half-width, .third-width, .full-width {
