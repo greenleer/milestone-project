@@ -48,19 +48,19 @@ figcaption {
   font-size: 16px;
   font-weight: 300;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 figcaption a {
-  padding: 5px 10px;
+  padding: 10px 10px;
   margin: 0 10px;
-  color: #000000;
-  border: 1px solid #000000;
+  color: #ffffff;
+  border: 1px solid #ffffff;
   border-radius: 3px;
 }
 figcaption a:hover {
-  background: dodgerblue;
+  background: #ffffff;
   border: 1px solid dodgerblue;
-  color: #ffffff;
+  color: dodgerblue;
 }
 footer {
   text-align: center;
@@ -126,6 +126,11 @@ footer a:hover {
   border: 1px solid #000000;
   display: block;
   margin: auto;
+}
+#rogue-img, #jubilee-img, #recipe-img {
+  border-radius: 1%;
+  padding-top: 60px;
+  background: dodgerblue;
 }
 #about {
   background: dodgerblue;
