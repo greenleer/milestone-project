@@ -1,13 +1,12 @@
 body {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
-  background: #ffffff;
-  color: #000000;
+  color: #ffffff;
 }
 body div {
   box-sizing: border-box;
 }
-h1, nav {
+h1, nav, p, ul li {
   font-weight: 300;
 }
 h1 {
@@ -21,41 +20,41 @@ h3 {
 }
 p {
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300;
 }
 a {
   text-decoration: none;
+  color: inherit;
   transition: 0.3s;
+}
+a:hover, #jumbotron span, #foot-wrap {
+  color: #000000;
 }
 ul {
   list-style: none;
-  word-spacing: 30px;
-}
-ul li {
-  display: inline-block;
 }
 nav {
   padding-top: 5px;
   padding-right: 40px;
   text-align: right;
 }
-nav ul li a {
-  color: #ffffff;
+nav ul {
+  word-spacing: 30px;
 }
-nav ul li a:hover {
-  color: #000000;
+nav ul li {
+  display: inline-block;
 }
-section div {
+section div, #foot-wrap {
   padding: 20px;
 }
 footer {
   text-align: center;
 }
-footer a {
-  color: #000000;
+footer img {
+  padding: 0 10px;
 }
-footer a:hover {
-  color: dodgerblue;
+footer li {
+  padding-left: 0px;
+  padding-bottom: 10px;
 }
 .full-width {
   width: 100%;
@@ -66,16 +65,9 @@ footer a:hover {
   width: 50%;
   float: left;
 }
-.left {
-  text-align: left;
-}
-.right {
-  text-align: right;
-}
 .third-width {
   width: 33.33%;
   float: left;
-  text-align: center;
 }
 .subhead {
   margin-top: 0;
@@ -83,12 +75,37 @@ footer a:hover {
   font-weight: bold;
   text-transform: lowercase;
   text-align: left;
-  color: dodgerblue;
+  color: #1e90ff;
+}
+.veil {
+  background-color: #1e90ff;
+  width: 45%;
+  float: left;
+  margin: 20px;
+  padding: 0;
+}
+.veil img {
+  transition: .3s;
+  border: 1px solid #ffffff;
+}
+.veil img:hover {
+  opacity: .9;
+  border: 1px solid #1e90ff;
+}
+.icon {
+  width: 20px;
+  height: auto;
+  position: relative;
+  top: 2px;
+}
+.logo {
+  width: 60px;
+  height: auto;
+  padding: 15px;
 }
 #marquee {
   font-size: 25px;
   padding-left: 40px;
-  color: #ffffff;
   text-align: left;
 }
 #hero {
@@ -99,49 +116,43 @@ footer a:hover {
 }
 #jumbotron {
   font-size: 80px;
-  color: #ffffff;
   position: relative;
   top: 70px;
   left: 50px;
-}
-#jumbotron span {
-  color: #000000;
 }
 #work img, #about img {
     width: 100%;
     display: block;
     margin: auto;
 }
-#rogue, #jubilee, #recipe {
-  opacity: .8;
-  transition: .3s;
-}
-#rogue:hover, #jubilee:hover, #recipe:hover {
-  opacity: 1;
-}
-#about {
-  background: dodgerblue;
-}
-#about .subhead {
-  color: #ffffff;
+#about, #copyright {
+  background: #1e90ff;
 }
 #ryan {
+  border: 2px solid #ffffff;
   border-radius: 50%;
 }
-#foot-wrap {
-  padding-bottom: 30px;
+#foot-wrap a {
+  color: inherit;
+}
+#foot-wrap a:hover {
+  color: #1e90ff;
 }
 #copyright {
   font-size: 18px;
   font-weight: 300;
-  background: #000000;
-  color: #ffffff;
 }
-@media screen and (max-width: 800px) {
-  .half-width, .third-width, .full-width {
+@media screen and (max-width: 600px) {
+  .veil, .half-width, .third-width, .full-width{
     width: 100%;
     float: none;
-    padding-bottom: 10px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  nav {
+    text-align: center;
+  }
+  #marquee {
     text-align: center;
   }
   #jumbotron {
