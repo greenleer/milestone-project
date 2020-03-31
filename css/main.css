@@ -101,22 +101,26 @@ footer {
 }
 .img-description {
   position: absolute;
-  top: 40%;
-  left: 30%;
-  bottom: 40%;
-  right: 30%;
+  bottom: 0;
+  left: 0;
+  /***
   display: flex;
   justify-content: center;
   align-items: center;
+  ***/
+  padding: 10px;
   color: #ffffff;
   background: #1e90ff;
-  border-radius: 5%;
+  /***
   visibility: hidden;
+  ***/
   opacity: 0;
   transition: .3s;
 }
 .veil:hover .img-description {
+  /***
   visibility: visible;
+  ***/
   opacity: .9;
 }
 a.img-description:hover {
