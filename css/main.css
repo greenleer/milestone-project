@@ -88,34 +88,39 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  float: left;
   margin: 20px;
   padding: 0;
+  float: left;
   background-color: #1e90ff;
+  transition: .3s;
 }
 .veil img {
   border: 1px solid #ffffff;
 }
-.veil img:hover {
+.veil:hover img {
   border: 1px solid #1e90ff;
+  opacity: .3;
+}
+.veil:hover .img-description {
+  opacity: 1;
 }
 .img-description {
   position: absolute;
   bottom: 0;
-  left: middle;
-  padding: 10px;
+  left: 0;
   color: #ffffff;
-  background: #1e90ff;
   opacity: 0;
   transition: .3s;
 }
-.img-description a {
-  padding: 20px;
-}
-.veil:hover .img-description {
-  opacity: .9;
+
+.img-description h3, .img-description p {
+  margin-bottom: 0;
+  padding: 0;
 }
 
+.img-description a:hover {
+  color: #ffffff;
+}
 .logo {
   width: 40px;
   height: auto;
