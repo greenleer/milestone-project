@@ -102,30 +102,20 @@ footer {
 .img-description {
   position: absolute;
   bottom: 0;
-  left: 0;
-  /***
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  ***/
+  left: middle;
   padding: 10px;
   color: #ffffff;
   background: #1e90ff;
-  /***
-  visibility: hidden;
-  ***/
   opacity: 0;
   transition: .3s;
 }
+.img-description a {
+  padding: 20px;
+}
 .veil:hover .img-description {
-  /***
-  visibility: visible;
-  ***/
   opacity: .9;
 }
-a.img-description:hover {
-  color: #ffffff;
-}
+
 .logo {
   width: 40px;
   height: auto;
