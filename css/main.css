@@ -183,6 +183,12 @@ footer {
   width: 66.66%;
   margin: 0 auto;
 }
+#bio a {
+  color: #1e90ff;
+}
+#bio a:hover {
+  color: #000000;
+}
 #ryan {
   width: 20%;
   border: 2px solid #ffffff;
