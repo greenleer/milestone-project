@@ -39,7 +39,7 @@ ul li {
   margin-top: 15px;
 }
 nav {
-  margin: 0;
+  margin-right: 50px;
   color: #ffffff;
   text-align: right;
   vertical-align: middle;
@@ -112,12 +112,10 @@ footer {
   opacity: 0;
   transition: .3s;
 }
-
 .img-description h3, .img-description p {
   margin-bottom: 0;
   padding: 0;
 }
-
 .img-description a:hover {
   color: #ffffff;
 }
