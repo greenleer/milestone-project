@@ -7,6 +7,7 @@ body div {
   box-sizing: border-box;
 }
 header {
+  color: #ffffff;
   background-color: #1e90ff;
 }
 h1, nav {
@@ -22,11 +23,6 @@ h2 {
 h3 {
   font-size: 25px;
   margin-bottom: 0;
-}
-p {
-  font-family: 'Open Sans', sans-serif;
-  line-height: 30px;
-  margin: 10px 0;
 }
 a {
   text-decoration: none;
@@ -44,7 +40,6 @@ ul li {
 }
 nav {
   margin-right: 50px;
-  color: #ffffff;
   text-align: right;
   vertical-align: middle;
 }
@@ -57,6 +52,11 @@ nav ul li {
 }
 section div, footer div {
   padding: 20px;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 30px;
+  margin: 10px 0;
 }
 figcaption {
   text-align: center;
@@ -153,7 +153,6 @@ footer {
 #marquee {
   margin: 20px;
   font-size: 24px;
-  color: #ffffff;
   text-align: left;
 }
 #hero {
@@ -167,7 +166,6 @@ footer {
   position: relative;
   top: 70px;
   left: 50px;
-  color: #ffffff;
 }
 #work img, #about img {
   display: block;
