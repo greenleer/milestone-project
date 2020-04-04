@@ -84,10 +84,8 @@ nav ul li a:hover {
   color: #000000;
 }
 #jumbotron {
-  position: relative;
-  left: 20px;
-  top: 100px;
-  margin: 10px;
+  margin-left: 30px;
+  padding-top: 50px;
   font-size: 80px;
 }
 #jumbotron span {
