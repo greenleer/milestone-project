@@ -1,69 +1,50 @@
 body {
-  font-family: 'Lato', sans-serif;
-  font-size: 18px;
-  color: #000000;
-}
-body div {
-  box-sizing: border-box;
-}
-header {
-  color: #ffffff;
-  background-color: #1e90ff;
-}
-h1, nav {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+  font-size: 18px;
 }
-h1 {
-  font-size: 60px;
-}
-h2 {
-  font-size: 40px;
-}
-h3 {
-  font-size: 25px;
-  margin-bottom: 0;
+h1, h2, h3, nav {
+  font-family: 'Lato', sans-serif;
 }
 a {
   text-decoration: none;
   color: inherit;
-  transition: 0.3s;
-}
-a:hover, #jumbotron span {
-  color: #000000;
+  transition: .3s;
 }
 ul {
   list-style: none;
 }
-ul li {
-  margin-top: 15px;
+img {
+  display: block;
+  margin: 0 auto;
 }
-nav {
-  margin-right: 50px;
-  text-align: right;
-  vertical-align: middle;
+#projects, #about, #contact, #copyright {
+  overflow: auto;
+  clear: both;
+  padding: 20px 0;
 }
-nav ul {
-  margin: 20px;
-  word-spacing: 30px;
+/*** UTILITY DIV CLASSES ***/
+.full-width {
+  width: 100%;
+  clear: both;
 }
-nav ul li {
-  display: inline-block;
+.middle-col {
+  width: 66.6%;
+  margin: auto;
 }
-section div, footer div {
-  padding: 20px;
+.half-width {
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
 }
-p {
-  font-family: 'Open Sans', sans-serif;
-  line-height: 30px;
-  margin: 10px 0;
+.third-width {
+  width: 33.3%;
+  float: left;
 }
 figcaption {
   text-align: center;
+  margin-top: 30px;
 }
 figcaption a {
-  position: relative;
-  top: 10px;
   border: 1px solid #1e90ff;
   border-radius: 3px;
   color: #1e90ff;
@@ -74,48 +55,75 @@ figcaption a:hover {
   color: #ffffff;
   background: #1e90ff;
 }
-footer {
-  text-align: center;
-}
-.full-width {
-  width: 100%;
-  clear: both;
+/*** HEADER STYLES ***/
+header {
+  background-color: #1e90ff;
+  color: #ffffff;
   overflow: auto;
 }
-.half-width {
-  width: 50%;
-  float: left;
+header h1, nav {
+  font-size: 24px;
+  font-weight: 300;
 }
-.third-width {
-  width: 33.33%;
-  float: left;
+header h1 {
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-bottom: 10px;
 }
-.subhead {
-  margin: 0;
+nav {
+  text-align: right;
+  padding-right: 30px;
+}
+nav ul {
+  word-spacing: 30px;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a:hover {
+  color: #000000;
+}
+#jumbotron {
   position: relative;
-  top: 10px;
   left: 20px;
-  font-size: 50px;
-  font-weight: bold;
-  text-transform: lowercase;
-  text-align: left;
+  top: 100px;
+  margin: 10px;
+  font-size: 80px;
+}
+#jumbotron span {
+  color: #000000;
+}
+#hero {
+  background-image: url('../img/robot-costume.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: bottom left;
+}
+/*** WORK SECTION ***/
+.subhead {
   color: #1e90ff;
+  font-size: 40px;
+  margin: 10px 10px 10px 30px;
+  text-transform: lowercase;
 }
 .veil {
+  box-sizing: border-box;
   width: 45%;
   position: relative;
   top: 0;
   right: 0;
   bottom: 0;
-  left: 0;
+  left: 10px;
   margin: 20px;
   padding: 0;
+  background: #1e90ff;
   float: left;
-  background-color: #1e90ff;
   transition: .3s;
 }
 .veil img {
-  border: 1px solid #ffffff;
+  border: 1px solid #000000;
+  width: 100%;
+  transition: .3s;
 }
 .veil:hover img {
   border: 1px solid #1e90ff;
@@ -126,8 +134,8 @@ footer {
 }
 .img-description {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 30px;
+  left: 30px;
   color: #ffffff;
   opacity: 0;
   transition: .3s;
@@ -137,88 +145,58 @@ footer {
   padding: 0;
 }
 .img-description a:hover {
-  color: #ffffff;
+  color: inherit;
 }
-.logo {
-  width: 40px;
-  height: auto;
-  padding: 10px;
-}
-.project-image {
-  display: block;
-  margin: 0 auto;
-  padding: 30px 0;
-  max-width: 100%;
-}
-#marquee {
-  margin: 20px;
-  font-size: 24px;
-  text-align: left;
-}
-#hero {
-  background-image: url('../img/robot-costume.jpg');
-  height: 100vh;
-  background-size: cover;
-  background-position: bottom left;
-}
-#jumbotron {
-  font-size: 80px;
-  position: relative;
-  top: 70px;
-  left: 50px;
-}
-#work img, #about img {
-  display: block;
-  margin: auto;
-}
-#work img {
-  width: 100%;
-}
+/*** ABOUT SECTION ***/
 #about {
   background: #f6faff;
 }
-#bio {
-  width: 66.66%;
-  margin: 0 auto;
-}
-#bio a {
-  color: #1e90ff;
-}
-#bio a:hover {
-  color: #000000;
-}
 #ryan {
-  width: 20%;
-  border: 2px solid #ffffff;
+  width: 33.33%;
   border-radius: 50%;
-  margin: 0 auto;
 }
-#contact a {
-  color: inherit;
+/*** FOOTER STYLES ***/
+footer div {
+  text-align: center;
 }
 #contact a:hover {
-  color: #1e90ff;
+  color: #1e99ff;
+}
+.social-badge {
+  width: 40px;
+  height: auto;
+  padding: 10px;
+  display: inline;
 }
 #copyright {
-  color: #ffffff;
   background: #1e90ff;
-  font-size: 18px;
-  font-weight: 300;
 }
+#copyright a:hover {
+  color: #ffffff;
+}
+/*** RESPONSIVE MEDIA QUERY ***/
 @media screen and (max-width: 768px) {
-  .veil, .half-width, .third-width, .full-width{
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .half-width, .third-width, .full-width {
     width: 100%;
     float: none;
     margin: 20px auto;
     text-align: center;
   }
-  nav, #marquee {
+  nav, #marquee, #jumbotron {
+    position: static;
+    margin: 0 auto;
     text-align: center;
   }
-  #jumbotron {
-    position: static;
+  .veil {
+    width: 66.66%;
+    float: none;
+    margin: 10px auto;
   }
   #ryan {
-    width: 100%;
+    width: 66.66%;
   }
 }

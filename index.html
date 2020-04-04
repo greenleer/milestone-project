@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -19,25 +19,28 @@
           <h1 id="marquee">Ryan Greenlee : Creative Human</h1>
         </div>
         <div class="half-width">
-          <nav id="top-nav">
+          <nav>
             <ul>
-              <li><a href="#work">projects</a></li>
+              <li><a href="#projects">projects</a></li>
               <li><a href="#about">about</a></li>
               <li><a href="#contact">contact</a></li>
             </ul>
           </nav>
         </div>
       </div>
-      <div class="half-width">
-        <h2 id="jumbotron">Web design is <span>serious</span> business!</h2>
+      <div class="full-width">
+        <div class="half-width">
+          <h2 id="jumbotron">Web design is <span>serious</span> business!</h2>
+        </div>
       </div>
     </div>
   </header>
 
   <main>
-    <section id="work">
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+      <h3 class="subhead">Projects</h3>
       <div class="full-width">
-        <h3 class="subhead">projects</h3>
         <div class="veil">
           <a href="../gallery/">
             <img src="img/gallery-thumbnail.png" alt="Photo Gallery Project thumbnail" />
@@ -49,49 +52,49 @@
               </a>
             </div>
         </div>
-          <div class="veil">
+        <div class="veil">
+          <a href="../rogue/">
+            <img src="img/rogue-pickings-thumbnail.png" alt="Rogue Pickings website thumbnail" />
+          </a>
+          <div class="img-description">
             <a href="../rogue/">
-              <img src="img/rogue-pickings-thumbnail.png" alt="Rogue Pickings website thumbnail" />
+              <h3>Rogue Pickings Website</h3>
+              <p>Web Development</p>
             </a>
-            <div class="img-description">
-              <a href="../rogue/">
-                <h3>Rogue Pickings Website</h3>
-                <p>Web Development</p>
-              </a>
-            </div>
           </div>
-          <div class="veil">
+        </div>
+        <div class="veil">
+          <a href="../jubilee/">
+            <img src="img/jubilee-thumbnail.png" alt="Jubilee Austen project thumbnail" />
+          </a>
+          <div class="img-description">
             <a href="../jubilee/">
-              <img src="img/jubilee-thumbnail.png" alt="Jubilee Austen project thumbnail" />
+              <h3>Jubilee Austen Portfolio</h3>
+              <p>Web Development</p>
             </a>
-            <div class="img-description">
-              <a href="../jubilee/">
-                <h3>Jubilee Austen Portfolio</h3>
-                <p>Web Development</p>
-              </a>
-            </div>
           </div>
-          <div class="veil">
-            <a href="../recipe/">
-              <img src="img/recipe-thumbnail.png" alt="Recipe Collection thumbnail" />
-            </a>
+        </div>
+        <div class="veil">
+          <a href="../recipe/">
+            <img src="img/recipe-thumbnail.png" alt="Recipe Collection thumbnail" />
+          </a>
             <div class="img-description">
               <a href="../recipe/">
                 <h3>Recipe Collection</h3>
                 <p>Web Development</p>
               </a>
             </div>
-          </div>
+        </div>
       </div>
     </section>
-
+    <!-- ABOUT SECTION -->
     <section id="about">
       <div class="full-width">
         <h3 class="subhead">About Me</h3>
         <figure>
           <img id="ryan" src="img/ryan2.png" alt="Ryan Greenlee" />
         </figure>
-        <div id="bio" class="full-width">
+        <div class="middle-col">
           <h3>Hi, I'm Ryan!</h3>
           <p>I'm a self-taught Front-end Web Developer and Designer, living in Denver, CO.</p>
           <p>I'm also a music composer, amateur photographer, and snowboarder. My journey with web development started when I couldn't find a Wordpress theme that I liked.  Driven by curiosity, I enrolled in the <strong>Break Into Tech</strong> cirriculum at <strong><a href="http://www.skillcrush.com" target="_blank">Skillcrush</a></strong>, and I haven't looked back.</p>
@@ -109,8 +112,8 @@
   </main>
 
   <footer>
+    <h3 class="subhead">Let's Connect</h3>
     <div id="contact" class="full-width">
-      <h3 class="subhead">Let's Connect</h3>
       <div class="half-width">
         <h3>Hire Me</h3>
         <p><span class="fas fa-mobile-alt"></span>
@@ -121,16 +124,16 @@
       <div class="half-width">
         <h3>Follow Me</h3>
         <a href="https://github.com/greenleer" target="_blank">
-          <img id="github-icon" class="logo" src="img/github-mark.png" alt="GitHub Logo" />
+          <img id="github-icon" class="social-badge" src="img/github-mark.png" alt="GitHub Logo" />
         </a>
         <a href="https://www.linkedin.com/in/ryan-greenlee-093002158/" target="_blank">
-          <img id="linkedin-icon" class="logo" src="img/linkedin-icon.png" alt="LinkedIn Logo" />
+          <img id="linkedin-icon" class="social-badge" src="img/linkedin-icon.png" alt="LinkedIn Logo" />
         </a>
         <a href="https://www.instagram.com/hi.im.ryan.g/" target="_blank">
-          <img id="instagram-icon" class="logo" src="img/instagram-icon.png" alt="Instagram Logo" />
+          <img id="instagram-icon" class="social-badge" src="img/instagram-icon.png" alt="Instagram Logo" />
         </a>
         <a href="https://codepen.io/greenleer" target="_blank">
-          <img id="codepen-icon" class="logo" src="img/codepen-icon.png" alt="CodePen Logo" />
+          <img id="codepen-icon" class="social-badge" src="img/codepen-icon.png" alt="CodePen Logo" />
         </a>
       </div>
     </div>
