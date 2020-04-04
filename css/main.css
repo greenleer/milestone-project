@@ -149,6 +149,9 @@ nav ul li a:hover {
 #about {
   background: #f6faff;
 }
+#about a:hover {
+  color: #1e90ff;
+}
 #ryan {
   width: 33.33%;
   border-radius: 50%;
