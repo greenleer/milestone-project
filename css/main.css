@@ -17,6 +17,21 @@ img {
   display: block;
   margin: 0 auto;
 }
+figcaption {
+  text-align: center;
+  margin-top: 30px;
+}
+figcaption a {
+  border: 1px solid #1e90ff;
+  border-radius: 3px;
+  color: #1e90ff;
+  padding: 10px 30px;
+  transition: .3s;
+}
+figcaption a:hover {
+  color: #ffffff;
+  background: #1e90ff;
+}
 #projects, #about, #contact, #copyright {
   overflow: auto;
   clear: both;
@@ -39,21 +54,6 @@ img {
 .third-width {
   width: 33.3%;
   float: left;
-}
-figcaption {
-  text-align: center;
-  margin-top: 30px;
-}
-figcaption a {
-  border: 1px solid #1e90ff;
-  border-radius: 3px;
-  color: #1e90ff;
-  padding: 10px 30px 10px 30px;
-  transition: .3s;
-}
-figcaption a:hover {
-  color: #ffffff;
-  background: #1e90ff;
 }
 /*** HEADER STYLES ***/
 header {
@@ -111,8 +111,8 @@ nav ul li a:hover {
   top: 0;
   right: 0;
   bottom: 0;
-  left: 10px;
-  margin: 20px;
+  left: 0;
+  margin: 30px;
   padding: 0;
   background: #1e90ff;
   float: left;
